@@ -154,7 +154,6 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2019 - May 2023",
     points: [
-      "GPA: 3.1/4.0",
       "Relevant Coursework: Object-Oriented Programming, Data Structures, Discrete Mathematics, Programming Abstractions, Theory of Computations, Analysis of Algorithms, System Fundamentals I, System Fundamentals (C Programming), Computer Networking, Scripting Languages, Software Security",
       "Residential Safety Program (2019-2020)",
       "Residential Hall Council Senator (2019-2020)",
