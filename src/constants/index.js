@@ -40,7 +40,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Education",
   },
   {
     id: "contact",
@@ -149,7 +149,7 @@ const experiences = [
   },
   {
     title: "Stony Brook University",
-    company_name: "Towards BS in Computer Science",
+    company_name: "Some Bachelor's in Computer Science",
     icon: sbu,
     iconBg: "#E6DEDD",
     date: "Aug 2019 - May 2023",
