@@ -228,7 +228,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
@@ -255,20 +255,24 @@ const projects = [
       "Web application for users to manage their expenses, budgets, income and financial goals. User authentication implemented. Demo login to try it out!",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "java",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "javaSpring",
+        name: "react",
         color: "pink-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "javaSpring",
         color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
       },
     ],
     image: budgetapp,
@@ -277,24 +281,24 @@ const projects = [
     live_link: "https://hasan-budget-app.onrender.com"
   },
   {
-    name: "Trip Guide",
+    name: "Coming Soon!",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Social Media Site in progress",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "materialUI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: bugtracker,
     front_code_link: "https://github.com/",
     back_code_link: "https://github.com/",
     live_link: "https://github.com/"
