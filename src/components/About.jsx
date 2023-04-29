@@ -55,17 +55,17 @@ const About = () => {
         <br />
         <br />
         <p>
-          <strong>Languages:</strong> Javascript, Java, Python, HTML, CSS, C
+          <strong>Languages:</strong> Javascript, Java, Python, C, HTML5, CSS, SQL
         </p>
         <p>
-          <strong>Frameworks:</strong> React, Express, Flask,
-          AJAX, Django, Spring Boot, Tailwind, Material UI
+          <strong>Frameworks/Libraries:</strong> React, Express, Java Spring, Flask,
+          AJAX, Django, Tailwind, Material UI, Axios, Bootstrap, jQuery
         </p>
         <p>
           <strong>Databases:</strong> SQL, MongoDB
         </p>
         <p>
-          <strong>Other Technologies:</strong> Git, AWS
+          <strong>Other Technologies:</strong> Git, AWS, Bcrypt, Rest API
         </p>
       </motion.p>
 
