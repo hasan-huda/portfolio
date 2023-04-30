@@ -62,7 +62,7 @@ const About = () => {
           AJAX, Django, Tailwind, Material UI, Axios, Bootstrap, jQuery
         </p>
         <p>
-          <strong>Databases:</strong> SQL, MongoDB
+          <strong>Databases:</strong> MySQL, MongoDB
         </p>
         <p>
           <strong>Other Technologies:</strong> Git, AWS, Bcrypt, Rest API
