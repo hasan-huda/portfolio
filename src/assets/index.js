@@ -41,6 +41,7 @@ import tripguide from "./tripguide.png";
 import logoColor from "./logoColor.svg";
 import bugtracker from "./bugtrackerss.png";
 import budgetapp from "./budgetss.png";
+import fiscalfit from "./fiscalfit.png"
 
 
 export {
@@ -70,6 +71,7 @@ export {
   typescript,
   threejs,
   meta,
+  fiscalfit,
   shopify,
   starbucks,
   tesla,

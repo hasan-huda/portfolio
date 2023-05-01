@@ -30,6 +30,7 @@ import {
   sql,
   python,
   budgetapp,
+  fiscalfit,
   bugtracker
 } from "../assets";
 
@@ -249,6 +250,25 @@ const projects = [
     live_link: "https://hasan-bugtracker-app.onrender.com"
   },
   {
+    name: "FiscalFit",
+    description:
+      "Frontend display promoting a financial tracker. The product is promoted with a modern design, complete with interactive navbar, highlighting stats, features, testimonials, and much more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: fiscalfit,
+    front_code_link: "https://github.com/hasan-huda/bank-app",
+    back_code_link: "https://github.com/hasan-huda/bank-app",
+    live_link: "https://hasan-fiscalfit.onrender.com/"
+  },
+  {
     name: "Budget App",
     description:
       "Web application for users to manage their expenses, budgets, income and financial goals. User authentication implemented. Demo login to try it out!",
@@ -278,29 +298,6 @@ const projects = [
     front_code_link: "https://github.com/hasan-huda/budget-frontend",
     back_code_link: "https://github.com/hasan-huda/budget-backend",
     live_link: "https://hasan-budget-app.onrender.com"
-  },
-  {
-    name: "Coming Soon!",
-    description:
-      "Social Media Site in progress",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "materialUI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bugtracker,
-    front_code_link: "https://github.com/",
-    back_code_link: "https://github.com/",
-    live_link: "https://github.com/"
   },
 ];
 
