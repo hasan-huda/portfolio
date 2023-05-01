@@ -224,6 +224,10 @@ const projects = [
       "Web application for project managers to monitor software bugs across projects. User authentication & management, project management, and admin capabilities. Demo login to try it out!",
     tags: [
       {
+        name: "fullstack",
+        color: "white",
+      },
+      {
         name: "react",
         color: "blue-text-gradient",
       },
@@ -237,7 +241,7 @@ const projects = [
       },
       {
         name: "express",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "nodejs",
@@ -254,6 +258,10 @@ const projects = [
     description:
       "Frontend display promoting a financial tracker. The product is promoted with a modern design, complete with interactive navbar, highlighting stats, features, testimonials, and much more.",
     tags: [
+      {
+        name: "frontend",
+        color: "white",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
@@ -274,6 +282,10 @@ const projects = [
       "Web application for users to manage their expenses, budgets, income and financial goals. User authentication implemented. Demo login to try it out!",
     tags: [
       {
+        name: "fullstack",
+        color: "white",
+      },
+      {
         name: "java",
         color: "blue-text-gradient",
       },
@@ -287,7 +299,7 @@ const projects = [
       },
       {
         name: "javaSpring",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "tailwindcss",
