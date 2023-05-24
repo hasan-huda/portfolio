@@ -150,10 +150,10 @@ const experiences = [
   },
   {
     title: "Stony Brook University",
-    company_name: "Some Bachelor's in Computer Science",
+    company_name: "BSc in Computer Science Expected 2024",
     icon: sbu,
     iconBg: "#E6DEDD",
-    date: "Aug 2019 - May 2023",
+    date: "Aug 2019 - May 2024",
     points: [
       "Relevant Coursework: Object-Oriented Programming, Data Structures, Discrete Mathematics, Programming Abstractions, Theory of Computations, Analysis of Algorithms, System Fundamentals I, System Fundamentals (C Programming), Computer Networking, Scripting Languages, Software Security",
       "Residential Safety Program (2019-2020)",
