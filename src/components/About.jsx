@@ -57,7 +57,7 @@ const About = () => {
         I'm currently seeking a full stack position where I can continue my journey as a Software Engineer and be an impactful team member as well.
         <br />
         <p>
-          <strong>Languages:</strong> JavaScript, Java, C#, PHP, Python, C, HTML5, CSS, SQL
+          <strong>Languages:</strong> TypeScript, JavaScript, Java, C#, PHP, Python, C, HTML5, CSS, SQL
         </p>
         <p>
           <strong>Frameworks/Libraries:</strong> React, React Native, Next.js, Node.js, Express, Java Spring, Flask,
