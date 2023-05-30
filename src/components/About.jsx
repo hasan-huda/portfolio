@@ -86,12 +86,13 @@ const About = () => {
               />
             </Document>
           )} */}
-          <button
+          <a
             className="bg-gradient-to-r from-light-purple to-dark-purple text-white py-2 px-4 rounded"
-            onClick={onButtonClick}
+            href="src/assets/docs/hasanresume.pdf"
+            target="_blank"
           >
-            Download Resume
-          </button>
+            Resume
+          </a>
         </div>
         I am a skilled software engineer with experience in many languages and a
         wide range of frameworks. My foundation in these languages have been
@@ -107,8 +108,8 @@ const About = () => {
         <br />
         <br />
         <p>
-          <strong>Languages:</strong> TypeScript, JavaScript, Java, C#,
-          Python, C, HTML5, CSS, SQL
+          <strong>Languages:</strong> TypeScript, JavaScript, Java, C#, Python,
+          C, HTML5, CSS, SQL
         </p>
         <p>
           <strong>Frameworks/Libraries:</strong> React, React Native, Next.js,
@@ -122,7 +123,6 @@ const About = () => {
           <strong>Other Technologies:</strong> Git, AWS, Bcrypt, Rest API,
           Docker
         </p>
-        
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
