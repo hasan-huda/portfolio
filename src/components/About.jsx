@@ -6,14 +6,9 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import { Document, Page } from "react-pdf";
-import { pdfjs } from "react-pdf";
-
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  "pdfjs-dist/build/pdf.worker.min.js",
-  import.meta.url
-).toString();
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -46,23 +41,6 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   const [isViewerVisible, setViewerVisible] = useState(false);
 
-  const handleButtonClick = () => {
-    setViewerVisible(!isViewerVisible);
-  };
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch("src/assets/docs/hasanresume.pdf").then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "hasanhudaresume.pdf";
-        alink.click();
-      });
-    });
-  };
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -74,18 +52,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        <div className="mb-10 flex justify-center">
-          {/* <button onClick={handleButtonClick}>Toggle PDF Viewer</button>
-          {isViewerVisible && (
-            <Document file="src/assets/docs/hasanresume.pdf">
-              <Page
-                pageNumber={1}
-                renderTextLayer={false}
-                renderAnnotationLayer={false}
-                customTextRenderer={false}
-              />
-            </Document>
-          )} */}
+        <div className="mb-5 flex justify-center">
           <a
             className="bg-gradient-to-r from-light-purple to-dark-purple text-white py-2 px-4 rounded"
             href="https://salmon-ann-marie-61.tiiny.site/"
@@ -94,6 +61,7 @@ const About = () => {
             Resume
           </a>
         </div>
+
         I am a skilled software engineer with experience in many languages and a
         wide range of frameworks. My foundation in these languages have been
         developed through rigorous coursework at Stony Brook University's
@@ -120,9 +88,31 @@ const About = () => {
           <strong>Databases:</strong> MySQL, MongoDB
         </p>
         <p>
-          <strong>Other Technologies:</strong> Git, AWS, Bcrypt, Rest API,
+          <strong>Other Technologies:</strong> Git, AWS, Rest API,
           Docker
         </p>
+        <div className="mt-12 flex justify-center">
+          <ul className="flex justify-center">
+            <li class="list-inline-item">
+              <a
+                class="social-link bg-gradient-to-r from-light-purple to-dark-purple rounded-full text-white mr-3 p-4"
+                href="https://github.com/hasan-huda"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="social-link bg-gradient-to-r from-light-purple to-dark-purple rounded-full text-white mr-3 p-4"
+                href="https://www.linkedin.com/in/hasan-huda/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            </li>
+          </ul>
+        </div>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
