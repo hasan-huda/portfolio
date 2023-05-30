@@ -107,7 +107,7 @@ const About = () => {
         <br />
         <br />
         <p>
-          <strong>Languages:</strong> TypeScript, JavaScript, Java, C#, PHP,
+          <strong>Languages:</strong> TypeScript, JavaScript, Java, C#,
           Python, C, HTML5, CSS, SQL
         </p>
         <p>
