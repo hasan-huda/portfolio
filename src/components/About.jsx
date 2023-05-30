@@ -47,15 +47,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a skilled software developer with experience in many languages and a
-        wide range of frameworks. I'm a quick learner and collaborate closely
-        with clients to create efficient, scalable, and user-friendly solutions
-        that solve real-world problems. Let's work together to bring your ideas
-        to life!
+        I am a skilled software engineer with experience in many languages and a
+        wide range of frameworks. My foundation in these languages have been developed
+        through rigorous coursework at Stony Brook University's Computer Science program
+        as well Coding Dojo's Software Engineering Bootcamp. Working in these environments
+        allowed me to collaborate with many diverse groups of like-minded software engineers
+        to produce scalable and user-friendly applications.
         <br />
+        I'm currently seeking a full stack position where I can continue my journey as a Software Engineer and be an impactful team member as well.
         <br />
         <p>
-          <strong>Languages:</strong> TypeScript, JavaScript, Java, C#, PHP, Python, C, HTML5, CSS, SQL
+          <strong>Languages:</strong> JavaScript, Java, C#, PHP, Python, C, HTML5, CSS, SQL
         </p>
         <p>
           <strong>Frameworks/Libraries:</strong> React, React Native, Next.js, Node.js, Express, Java Spring, Flask,
@@ -65,7 +67,7 @@ const About = () => {
           <strong>Databases:</strong> MySQL, MongoDB
         </p>
         <p>
-          <strong>Other Technologies:</strong> Git, AWS, Bcrypt, Rest API, Docker, Kubernetes, Azure, Google Cloud
+          <strong>Other Technologies:</strong> Git, AWS, Bcrypt, Rest API, Docker
         </p>
       </motion.p>
 
