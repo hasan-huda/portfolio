@@ -88,7 +88,7 @@ const About = () => {
           )} */}
           <a
             className="bg-gradient-to-r from-light-purple to-dark-purple text-white py-2 px-4 rounded"
-            href="src/assets/docs/hasanresume.pdf"
+            href="https://salmon-ann-marie-61.tiiny.site/"
             target="_blank"
           >
             Resume
